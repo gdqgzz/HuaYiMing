@@ -3,8 +3,42 @@
     padding:0 ;
     
 }
-.bigimage{
+.carousel{
     margin-bottom:100px;
+}
+
+/*轮播指示器*/
+.carousel-indicators li{
+    width: 50px;
+    background:#fff;
+    
+}
+
+.carousel-indicators li.active{
+    background:#0aa1ed;
+}
+
+.carousel-control-prev,.carousel-control-next{
+    width: 3%;
+    height:20%;
+    background: #aaa;
+    border-radius: 0.5rem;
+    top: 40%;
+}
+
+.container em{
+  font-style: normal;
+   width: 160px;
+   height: 42px;
+   color: #0097ff;
+}
+.container{
+    font-family: 微软雅黑;
+}
+
+.font_16{
+    font-size: 12px;
+    margin-bottom: 20px;
 }
 
 

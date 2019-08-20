@@ -9,42 +9,194 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/index3.css">
-   <title>Document</title>
+   <title>名师团队</title>
 
 </head>
 <body>
     <!-- 头部 -->
-    <!-- 大图 --> 
-<div class="bigimage">
-    <img class="w-100" src="img/mstd/background.jpg">  
+    <!-- 大图轮播 --> 
+<div class="carousel" id="demo" data-ride="carousel">
+    <!-- 图片 -->
+    <div class="carousel-item active">
+       <img class="w-100" src="img/mstd/background.jpg"> 
+    </div> 
+    <div class="carousel-item">
+        <img class="w-100" src="img/mstd/background1.jpg">
+    </div>
+    <div class="carousel-item">
+        <img class="w-100" src="img/mstd/background2.jpg">
+     </div>
+     <div class="carousel-item">
+        <img class="w-100" src="img/mstd/background3.jpg">
+    </div>
+    <!-- 指示器 -->
+    <ul class="carousel-indicators">
+        <li data-slide-to="0" data-target="#demo" class="active"></li>
+        <li data-slide-to="1" data-target="#demo" ></li>
+        <li data-slide-to="2" data-target="#demo" ></li>
+        <li data-slide-to="3" data-target="#demo" ></li>
+    </ul>
+   <!-- 左右箭头 -->
+    <a href="#demo" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a href="#demo" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
 </div>    
+   
  <div class="container">
      <div class="content2">
-        <div class="row mx-0">
-            <div class="col-lg-4 col-md-6 col-sm-12 px-0">
-                <div class="mx-0">
-                    <img class="w-100 pr-3" src="img/mstd/tu1.jpg">
-                    <div>
-                        <em>华艺名画室北京校区色彩名师</em>
-                        <h6>温天宝 | 爱徒，你可知？我曾也是那个狂放不羁的</h6>
-                        <span>他不是严肃古板的老学究，也不是气质儒雅的艺术家，</span>
-                        <span><button>{{n}}点赞</button></span>
+        <div class="row mx-0 pb-3">
+            <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3 ">
+                <div class="mx-0 text-center">
+                    <img class="w-100" src="img/mstd/tu1.jpg">
+                    <em>温天宝</em>
+                    <div class="text-center">
+                        <em class="font_16">华艺名画室北京校区色彩名师</em>
+                        <h6 class="mt-3 ">
+                            <a href="" class="text-black">温天宝 | 爱徒，你可知？我曾也是那个狂放不羁的</a>
+                        </h6>
+                        <span>
+                            <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                        </span>
+                        <span class="btn btn-primary w-100 ">点赞</span>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 px-0">
-                <div>
+            <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                <div class="text-center">
                     <img class="w-100" src="img/mstd/tu2.jpg">
-                    <div></div>
+                    <em>夏明亚</em>
+                    <div class="text-center">
+                        <em class="font_16">华艺名画室素描老师</em>
+                        <h6 class="mt-3 ">
+                            <a href="" class="text-black">夏明亚：终有一天你会觉得，考学就是纯粹地画好</a>
+                        </h6>
+                        <span>
+                            <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                        </span>
+                        <span class="btn btn-primary w-100 ">点赞</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 px-0">
-                <div>
+            <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                <div class="text-center">
                     <img class="w-100" src="img/mstd/tu3.jpg">
-                    <div></div>
+                    <em>张荣香</em>
+                    <div class="text-center">
+                        <em class="font_16">华艺名画室色彩老师</em>
+                        <h6 class="mt-3 ">
+                            <a href="">张荣香 | 一切的尊贵与荣耀都需要靠自己去争取。</a>
+                        </h6>
+                        <span>
+                            <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                        </span>
+                        <span class="btn btn-primary w-100 ">点赞</span>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="row mx-0 pb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3 ">
+                    <div class="mx-0 text-center">
+                        <img class="w-100" src="img/mstd/tu4.jpg">
+                        <em>李亚伟</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室北京校区色彩名师</em>
+                            <h6 class="mt-3 ">
+                                <a href="" class="text-black">温天宝 | 爱徒，你可知？我曾也是那个狂放不羁的</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                    <div class="text-center">
+                        <img class="w-100" src="img/mstd/tu5.jpg">
+                        <em>张鑫</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室素描老师</em>
+                            <h6 class="mt-3 ">
+                                <a href="" class="text-black">夏明亚：终有一天你会觉得，考学就是纯粹地画好</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                    <div class="text-center">
+                        <img class="w-100" src="img/mstd/tu6.jpg">
+                        <em>郭亚龙</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室色彩老师</em>
+                            <h6 class="mt-3 ">
+                                <a href="">张荣香 | 一切的尊贵与荣耀都需要靠自己去争取。</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row mx-0 pb-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3 ">
+                    <div class="mx-0 text-center">
+                        <img class="w-100" src="img/mstd/tu7.jpg">
+                        <em>崔爱军</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室北京校区色彩名师</em>
+                            <h6 class="mt-3 ">
+                                <a href="" class="text-black">温天宝 | 爱徒，你可知？我曾也是那个狂放不羁的</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                    <div class="text-center">
+                        <img class="w-100" src="img/mstd/tu8.jpg">
+                        <em>李文博</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室素描老师</em>
+                            <h6 class="mt-3 ">
+                                <a href="" class="text-black">夏明亚：终有一天你会觉得，考学就是纯粹地画好</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 px-0 pr-3">
+                    <div class="text-center">
+                        <img class="w-100" src="img/mstd/tu9.jpg">
+                        <em>孙大亮</em>
+                        <div class="text-center">
+                            <em class="font_16">华艺名画室色彩老师</em>
+                            <h6 class="mt-3 ">
+                                <a href="">张荣香 | 一切的尊贵与荣耀都需要靠自己去争取。</a>
+                            </h6>
+                            <span>
+                                <a href="" class="text-muted">他不是严肃古板的老学究，也不是气质儒雅的艺术</a>
+                            </span>
+                            <span class="btn btn-primary w-100 ">点赞</span>
+                        </div>
+                    </div>
+                </div>
+            </div> 
      </div>
  </div>   
 </body>
