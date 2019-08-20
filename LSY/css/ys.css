@@ -1,0 +1,20 @@
+.ys {
+    height: 360px;
+    width: 420px;
+    position: relative;
+    top: 20px;
+    left: -35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    padding: 50px;
+}
+
+.bt {
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    color: #0396fe;
+    border: #0396fe;
+    font-weight: normal;
+    font-style: normal;
+    cursor: pointer;
+}
