@@ -5,7 +5,7 @@
     top: 20px;
     left: -35px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-    padding: 50px;
+    padding: 30px;
 }
 
 .bt {
@@ -17,4 +17,23 @@
     font-weight: normal;
     font-style: normal;
     cursor: pointer;
+}
+
+.fd {
+    bottom: 20px;
+    left: 50px;
+}
+
+.lxj {
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 560px;
+    height: 50px;
+    line-height: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
 }
