@@ -45,7 +45,9 @@
   right:50px !important
 }
 
-
+.font-16{
+  font-size: 16px;
+}
 .jx{
   font-size: 36px;
 }
@@ -76,4 +78,10 @@
 }
 .font-22{
   font-size: 22px;
+}
+.pt-30{
+  padding-top:30px;
+}
+.color-gray{
+  color:#8a8a8a;
 }
