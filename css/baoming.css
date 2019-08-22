@@ -1,0 +1,78 @@
+*{padding:0;margin: 0;}
+.shouge{
+    box-shadow: 0 2px 5px 1px rgba(124,124,124,.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+.ewm>img{width:24px;height:24px;}
+.ewm{
+    display: block;
+    width: 29px;
+    height: 25px;
+    background-color: rgba(255, 50, 50, .1);
+    border-radius: 2px;
+    float: right;
+    margin-right:525px;
+    margin-top:5px;
+}
+.wai{
+    padding:30px;
+}
+.an>button{
+    width:650px;
+    height:30px;
+    font-family:cursive;text-shadow:6px 2px 2px #333;color:#000;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #faa;
+}
+button:hover{
+
+	background: #ededed;
+	background: gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+button:active{
+	color: #999;
+	background: gradient(linear, left top, left bottom, from(#ededed), to(#ffa));
+	background: -moz-linear-gradient(top,  #ddd,  #000);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+.img2{
+    margin-top:10px;
+}
+.nr>li{list-style:none;}
+.nr>.n1{
+    cursor: default;
+    font-weight: bold;
+    font-size: 20px;
+    color: gold;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 ;
+    margin-bottom:20px; 
+}
+li>input{
+    margin-bottom:10px;
+}
+#zh{
+    margin-left:105px;
+}
+#d1{
+    margin-right:150px;
+    list-style:none;
+    font-family:STCaiyun;
+    font-size: 18px;
+    text-align: center;
+    color:green;
+}
+.ys{
+    
+			content:"";
+			display: inline-block;
+			width:16px;
+			height:16px;
+            border-radius:100%;
+            margin-right:10px;
+}
