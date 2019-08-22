@@ -4120,19 +4120,11 @@ tbody.collapse.show {
     justify-content: flex-start;
   }
   .navbar-expand-md .navbar-nav {
-<<<<<<< HEAD
-     -webkit-box-orient: horizontal;
-     -webkit-box-direction: normal;
-     -ms-flex-direction: row;
-     flex-direction: row;
-   }
-=======
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
   }
->>>>>>> 7cf9f8f9e23b98d24e415ae4f8d844c40e4c0050
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
   }
@@ -5858,13 +5850,8 @@ button.close {
 }
 
 .carousel {
-<<<<<<< HEAD
-   position: relative;
- }
-=======
   position: relative;
 }
->>>>>>> 7cf9f8f9e23b98d24e415ae4f8d844c40e4c0050
 
 .carousel-inner {
   position: relative;

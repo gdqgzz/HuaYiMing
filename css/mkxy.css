@@ -1,0 +1,51 @@
+
+div img {width:1920px; margin-bottom:60px}
+a ul {list-style:none;width:1225px;margin:40px -25px 50px 0;
+    float: left;
+
+    }
+ul li {
+        float: left;
+        width:586px;
+        height:446.97px;
+        margin:0 0 40px 0;
+        padding:0 40px 0 0;
+        background-color: aliceblue;
+    }
+ li img {
+    height: 326.98px;
+    width:100%;
+    margin-bottom: 0;
+position:relative;
+left:20px
+}
+li div{position: relative;
+    left:10px
+}
+.shc{border: white;
+    margin:24px 35px 40px 40px;
+    }
+div div{width:100%;}
+h4{margin-bottom: 14px}
+.tanta::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.npgg{width:500px;
+height:600px;
+position:fixed;
+left:1300px;
+bottom:100px;
+border: 4px solid black;
+background-color:rgba(red, green, blue, alpha);
+text-align:center
+}
+.mar{margin:0;}  
+.w-90 {
+    width: 90% !important;
+    position:relative;
+    left:24px;
+}
+td h4 {color:10px;}
+div table{ table-layout: auto}
