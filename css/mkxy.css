@@ -46,6 +46,20 @@ text-align:center
     width: 90% !important;
     position:relative;
     left:24px;
+    height:350px
 }
 td h4 {color:10px;}
 div table{ table-layout: auto}
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 4%;
+            height: 20%;
+            background-color: gray;
+            border-radius: 0.5rem;
+            top: 40%
+        }
+        tr,td{border:2px solid gray}
+div p{font-size: 25px;
+margin-top:5px;
+}
+mmms{margin-top: 5px}
