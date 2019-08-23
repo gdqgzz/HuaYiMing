@@ -8,22 +8,45 @@
 }
 
 /*轮播指示器*/
-.carousel-indicators li{
-    width: 50px;
-    background:#fff;
-    
+@media screen and (min-width: 992px) {
+    .carousel-indicators li{
+        width: 50px;
+        background:#fff;
+        margin-bottom:550px; 
+    }
 }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-indicators li{
+        width: 50px;
+        background:#fff;
+        margin-bottom:650px; 
+    }
+}
+@media screen and (max-width: 767px) {
+    .carousel-indicators li{
+        width: 30px;
+        background:#fff;
+        margin-bottom:750px; 
+    }
+    .carousel-control-prev,.carousel-control-next{
+        height: 50%;
+        top: 100%;
+    }
+
+}
+
 
 .carousel-indicators li.active{
     background:#0aa1ed;
+
 }
 
 .carousel-control-prev,.carousel-control-next{
-    width: 3%;
-    height:20%;
+    width: 2%;
+    height:15%;
     background: #aaa;
     border-radius: 0.5rem;
-    top: 40%;
+    top: 10%;
 }
 
 .container em{
@@ -41,7 +64,13 @@
     margin-bottom: 20px;
 }
 
-
+.zan{
+    
+    border: 2px #0396fe solid;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 
