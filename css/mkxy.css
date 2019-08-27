@@ -37,8 +37,8 @@ height:600px;
 position:fixed;
 left:1300px;
 bottom:100px;
-border: 4px solid black;
-background-color:rgba(red, green, blue, alpha);
+border: 4px solid gray;
+background-color:white;
 text-align:center
 }
 .mar{margin:0;}  
@@ -54,9 +54,9 @@ div table{ table-layout: auto}
         .carousel-control-next {
             width: 4%;
             height: 20%;
-            background-color: gray;
+            background-color:gray;
             border-radius: 0.5rem;
-            top: 40%
+            top: 28%
         }
         tr,td{border:2px solid gray}
 div p{font-size: 25px;
