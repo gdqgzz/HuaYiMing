@@ -1,20 +1,20 @@
-.image{
-  width: 100%;
+.image {
+    width: 100%;
 }
+
 .ys {
-   
     position: absolute;
     top: 20px;
-    right: 0;
+    right: -790px;
     width: 360px;
     height: 300px;
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     padding: 30px;
-
 }
 
-.dz{
+.dz {
+    position: absolute;
     margin: 5px auto 0;
     width: 250px;
     height: 50px;
@@ -25,48 +25,54 @@
     border-radius: 50px;
     text-align: center;
     cursor: pointer;
+    top: 280px;
+    left: 80px;
 }
 
+.wz3 {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 560px;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, .5);
+}
 
-    .wz3{
-        position: absolute;
-        bottom: 16px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 560px;
-        height: 50px;
-        font-size: 18px;
-        color: #fff;
-        text-align: center;
-        background: rgba(0, 0, 0, .5);
-    }
-
-.rel{
+.rel {
     position: relative;
     margin: 50px;
-    width:1200px;
+    width: 1200px;
     height: 400px;
     padding-bottom: 50px;
     margin: auto;
 }
-.left{
+
+.left {
     position: absolute;
 }
-.right{
-    position: absolute;
+
+.right {
+    position: relative;
 }
-.image2{
-width:822px;
-height:400px;
+
+.image2 {
+    width: 822px;
+    height: 400px;
 }
-.wz1{
+
+.wz1 {
     font-size: 24px;
     color: #333;
     text-align: center;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
-.wz2{
+
+.wz2 {
     font-size: 18px;
     color: #999;
     line-height: 34px;
