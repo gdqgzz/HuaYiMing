@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>华艺名画室</title>
     <link rel="stylesheet" href="boot/bootstrap.css">
     <script src="boot/jquery.min.js"></script>
     <script src="boot/popper.min.js"></script>
     <script src="boot/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/mkxy.css">
+    <script type="text/javascript">
+        window.onload = function () {
+        document.getElementById('btn').onclick = function () {
+        document.getElementById('d1').style.display = 'none';
+
+    };
+
+    }
+    </script>
 
 </head>
 <body>
@@ -23,15 +32,15 @@
          <div class="npgg ">
             <table>
                 <tr>
-                    <td><h4><a href="#d1" data-slide="prev">最美学姐</a></h4></td>
+                    <td><h4><a href="" id="btn"">最美学姐</a></h4></td>
                     <td><h4><a href="#lunb" data-slide="prev">颜值名师</a></h4></td>
                     <td><h4>最牛教学</h4></td>
                 </tr>       
             <tr> 
                 <td colspan="3">
                     <!--轮播图-->
-                    <div id="d1" class="active tugao">
-    <div class="tab-content">
+                    
+   <div class="tab-content" id="d1">
         <div id="lunbo" class="carousel tab-pane active" data-ride="carousel">
             <div class="carousel-inner w-90">
                 <div class="carousel-item active tugao">
@@ -42,28 +51,28 @@
                 </div><div class="carousel-item">
                     <img src="img/MKYX/XY12.jpg" alt="" class="w-100">
                 </div>
-            </div>
-        </div></div>
-            <div>
-            <div class="tab-content">
-            <div id="lunb" class="carousel tab-pane" data-ride="carousel">
-                <div class="carousel-inner w-90">
-                    <div class="carousel-item active tugao">
-                        <img src="img/MKYX/XY0010.gif" alt="" class="w-100 mmms">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/MKYX/XY11.jpg" alt="" class="w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/MKYX/XY12.jpg" alt="" class="w-100">
-                    </div>
+        </div>
+    </div>
+    <div class="tab-content" id="d2" >
+        <div id="lunbo" class="carousel tab-pane active" data-ride="carousel">
+            <div class="carousel-inner w-90">
+                <div class="carousel-item active tugao">
+                    <img src="img/MKYX/XY10.jpg" alt="" class="w-100 mmms">
                 </div>
-                </div></div>
+                <div class="carousel-item">
+                    <img src="img/MKYX/XY11.jpg" alt="" class="w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/MKYX/XY12.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+            
             <!--左右箭头-->
-            <a data-slide="prev" href="#lunbo" class="carousel-control-prev">
+            <a data-slide="prev" href="#lunb" class="carousel-control-prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
-            <a data-slide="next" href="#lunbo" class="carousel-control-next">
+            <a data-slide="next" href="#lunb" class="carousel-control-next">
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
@@ -97,14 +106,14 @@
             <a href="">
                 <ul>
                     <li>
-                        <img src="img/MKYX/XY003.jpg" alt="">
+                        <img src="img/MKYX/XY004.jpg" alt="">
                         <div  class="shc">
                             <h5>头部色彩与着装及背景色彩解析</h5>
                             <p>华艺名老师 华艺名画室网络部</p>
                         </div>
                     </li>
                     <li>
-                        <img src="img/MKYX/XY004.jpg" alt="">
+                        <img src="img/MKYX/XY005.jpg" alt="">
                         <div class="shc">
                             <h5>美术高考培养这几种色彩能力提升色彩水平</h5>
                             <p>华艺名老师 华艺名画室网络部</p>
@@ -117,14 +126,34 @@
             <a href="">
                 <ul>
                     <li>
-                        <img src="img/MKYX/XY005.jpg" alt="">
+                        <img src="img/MKYX/XY006.jpg" alt="">
                         <div class="shc">
                             <h5>考美院，要掌握这些色彩头像的画法！</h5>
                             <p>华艺名老师 华艺名画室网络部</p>
                         </div>
                     </li>
                     <li>
-                        <img src="img/MKYX/XY006.jpg" alt="">
+                        <img src="img/MKYX/XY007.jpg" alt="">
+                        <div class="shc">
+                            <h5>不会画石膏，别说你会画画！</h5>
+                            <p>华艺名老师 华艺名画室网络部</p>
+                        </div>
+                    </li>
+                </ul>
+            </a>
+        </div>
+        <div>
+            <a href="">
+                <ul>
+                    <li>
+                        <img src="img/MKYX/XY008.jpg" alt="">
+                        <div class="shc">
+                            <h5>考美院，要掌握这些色彩头像的画法！</h5>
+                            <p>华艺名老师 华艺名画室网络部</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/MKYX/XY009.jpg" alt="">
                         <div class="shc">
                             <h5>不会画石膏，别说你会画画！</h5>
                             <p>华艺名老师 华艺名画室网络部</p>

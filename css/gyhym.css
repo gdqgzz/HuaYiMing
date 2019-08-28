@@ -26,3 +26,36 @@ a{
 .r3{
   padding-right: 1rem !important;
 }
+.mt-5{
+  padding-bottom:80px;
+}
+
+.headline { font-size: 36px; color: #333; text-align: center; line-height: 70px; }
+.headline em { color: #298edc; }
+.subtitle { font-size: 18px; color: #777; text-align: center; line-height: 27px; }
+.subtitle em { color: #298edc; }
+.idnex-nav { padding: 60px 0; }
+.idnex-nav ul { margin-right: -25px; }
+.idnex-nav li { float: left; margin-right: 25px; margin-bottom: 29px; }
+.history-time { padding: 50px 0; }
+.ht-cent { position: relative; width: 930px; margin: 40px auto 0; }
+.ht-cent:before { content: ""; position: absolute; top: 76px; left: 0; right: 0; margin: auto; width: 1px; height: 640px; background: #0097ff; }
+.ht-item { position: relative; float: left; background: #fff; padding: 12px 0; width: 417px; border-radius: 10px; margin-top: 100px; z-index: 2; }
+.ht-item:after { content: ""; position: absolute; top: 50%; margin-top: -7.5px; width: 15px; height: 15px; border: 1px #0097ff solid; right: -56px; border-radius: 50%; background: #fff; }
+.ht-item:before { content: ""; position: absolute; top: 50%; right: -39px; width: 9px; height: 1px; background: #0097ff; }
+.ht-item:first-child { margin-top: 0; }
+.ht-i-pic { float: left; width: 180px; height: 123px; margin: 4px 12px; }
+.ht-i-t { float: left; width: 180px; text-align: right; }
+.ht-i-t h3 { font-size: 24px; color: #0097ff; line-height: 36px; margin-bottom: 10px; }
+.ht-i-t p { font-size: 14px; color: #666; line-height: 24px; }
+.ht-right,
+.ht-right .ht-i-pic,
+.ht-right .ht-i-t { float: right; }
+.ht-ico { position: absolute; top: 0; right: -17px; width: 17px; height: 100%; background: url(../img/gyhym/htico.png) no-repeat center; }
+.ht-right .ht-ico { left: -17px; background: url(../img/gyhym/htico2.png) no-repeat center; }
+
+.ht-left{ float: left; width: 465px; }
+.ht-right{ float: right; width: 465px; margin-top: 125px; }
+.ht-right .ht-item{ float: right; }
+.ht-right .ht-item:after { left: -56px; }
+.ht-right .ht-item:before { left: -39px; margin-top: 1px; }
