@@ -29,7 +29,9 @@ a{
 .mt-5{
   padding-bottom:80px;
 }
-
+*{
+  text-decoration: none;
+}
 .headline { font-size: 36px; color: #333; text-align: center; line-height: 70px; }
 .headline em { color: #298edc; }
 .subtitle { font-size: 18px; color: #777; text-align: center; line-height: 27px; }
