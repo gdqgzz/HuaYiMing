@@ -1,5 +1,6 @@
 .image {
     width: 100%;
+    animation: slideInDown 3s;
 }
 
 .ys {
@@ -11,6 +12,7 @@
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .3);
     padding: 30px;
+    animation: zoomInUp 5s;
 }
 
 .dz {
@@ -50,6 +52,7 @@
     height: 400px;
     padding-bottom: 50px;
     margin: auto;
+    animation: bounceInLeft 5s;
 }
 
 .left {
