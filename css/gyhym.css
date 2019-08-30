@@ -64,3 +64,6 @@ a:hover{
 .my-header{
   width: 100%;
 }
+.container{
+  padding-bottom:0px !important; 
+}
