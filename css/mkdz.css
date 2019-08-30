@@ -85,3 +85,6 @@
 .color-gray{
   color:#8a8a8a;
 }
+.container{
+  padding-top:0px !important; 
+}
